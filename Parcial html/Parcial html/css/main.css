@@ -1,0 +1,181 @@
+
+body{
+    margin: 0%;
+    background-color: rgba(199, 163, 63, 0.801);
+}
+
+.Barra{
+  
+    width: 100%;
+    background-color:rgb(131, 54, 2) ;   
+    display: flex;
+    justify-content: space-around;
+    height: 90px;
+    box-shadow: 0px 3px rgba(0, 0, 0, .3);
+}
+.menu{
+    margin-left: -35%;
+}
+
+
+.buscador a{
+    margin: 0 50px;
+    text-decoration: none;
+    color: #2d2f30;
+    padding-top: 30px;
+    display:inline-block;
+}
+.Marca a{
+
+    color: #ffffff;
+    text-decoration: none;
+    padding-top: 25px;
+    display:inline-block;
+    font-size:35px;
+
+
+}
+
+
+.rede{
+    display: flex;
+    margin-top: 2%;
+    margin-right: 1%;
+}
+
+.catalogo section{
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+}
+.redes2{
+    padding-top: 1.5%;
+    display: flex;
+}
+
+.redes2 img{
+    width: 30PX;
+    border-radius: 50%;
+    height: 30PX;  
+    margin-left: 5px;  
+}
+
+.contenedor-principal{
+    justify-content: center;
+    display: flex;
+}
+
+.contenedor-tarjeta{
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+.contenedor-tarjeta a{
+    color: rgb(131, 54, 2);
+    text-decoration: none;
+}
+
+.tarjetas{
+    color: #ffffff;
+    width: 150px;
+    height: 150px;
+}
+
+#tarjeta1{
+    background: url("../img/Habitaciones de hotel/tarjeta1.jpg");
+    background-size: cover;
+}
+
+#tarjeta2{
+    background: url("../img/Departamentos/th (4).jpg");
+    background-size: cover;
+}
+
+#tarjeta3{ 
+    background: url("../img/Casas/th.jpg" );
+    background-size: cover;
+}
+
+.img-articulo{
+    margin: 10px;
+}
+
+.precio-info{
+    text-align: center;
+}
+footer{
+
+    background-color:rgb(131, 54, 2) ;   
+    box-sizing: border-box;
+}
+.pe{
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.pe h1{
+    font-size: 250%;
+}
+
+.redes{
+    padding-top: 10px;
+    display: flex;
+}
+
+.redes img{
+    width: 40PX;
+    border-radius: 20px;
+    height: 40PX;  
+    margin-left: 5px;  
+}
+
+.info-de-contacto-top{
+    background-color: rgb(131, 54, 2);
+    position: absolute;
+    left: 0;
+    top: 0; /*Con esto pegas el pie de pagina al final*/
+    width: 100%;
+}
+
+.info-de-contacto-top h2{
+    color: #FFFFFF;
+    margin: 10px;
+}
+
+.acerca-de-la-casa{
+    background-color: rgb(199, 142, 104);
+    text-align: center; /* Agregado */
+}
+
+/* Clases nuevas */
+.casa-elegida{
+    height: 200px;
+}
+.texto-casa{
+    display: flex;
+    justify-content: center;
+}
+.texto-casa p{
+    width: 30%;
+    text-align: left;
+}
+
+   
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(199, 163, 63, 0.801);
+
+
+
+    background-color: rgb(131, 54, 2); width: 1340px;
+    margin: 0;
+}
+
+
+
+#esto-borralo{
+    font-size: 30px;
+}
